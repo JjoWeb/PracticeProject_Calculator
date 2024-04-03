@@ -1,0 +1,74 @@
+.projectsHeader {
+    display: inline-block;
+    height: 5rem;
+}
+
+#header_stencil_main {
+    width: 12.5rem;
+    margin-bottom: 3rem;
+}
+
+#header_stencil_titleAndSignature {
+    border: solid black;
+    border-radius: 0% 0% 100% 0%;
+    margin-bottom: -2.4rem;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#header_stencil_title {
+    margin-bottom: 0%;
+    color: white;
+    line-height: 1.7rem;
+    font-weight: 50;
+    text-align: left;
+}
+
+#header_stencil_signature {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 4.7rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 20;
+}
+
+#header_stencil_borders {
+    margin-left: 4.2rem;
+}
+
+#header_stencil_borders > * {
+    width: 4rem;
+}
+
+#header_stencil_border1 {
+    border: solid darkturquoise;
+    border-width: 0rem 0.1rem 0.5rem 0rem;
+    border-radius: 0% 100% 100% 50%;
+    padding: 1rem;
+    box-shadow: -2rem -2rem -2rem -2rem black;
+}
+
+#header_stencil_border2 {
+    border: solid fuchsia;
+    border-width: 0rem 0.1rem 0.5rem 0rem;
+    border-radius: 0% 80% 100% 50%;
+    padding: 1rem;
+    margin-top: -3.2rem;
+    transform: rotate(-15deg);
+}
+
+#header_stencil_border3 {
+    border: solid darkviolet;
+    border-width: 0rem 0.1rem 0.5rem 0rem;
+    border-radius: 0% 50% 100% 50%;
+    margin-top: -3.2rem;
+    padding: 1rem;
+    transform: rotate(-28deg);
+}
